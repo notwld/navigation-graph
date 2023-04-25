@@ -28,9 +28,10 @@ class MainFragment : Fragment(),View.OnClickListener {
         view.findViewById<Button>(R.id.projects).setOnClickListener(this)
     }
     override fun onClick(view: View?) {
-//        when(view?.id){
-//            R.id.profile -> navController.navigate()
-//        }
+        when(view?.id){
+            R.id.profile -> navController.navigate(R.id.action_mainFragment_to_profileFragment)
+            R.id.projects -> navController.navigate(R.id.action_mainFragment_to_projectsFragment)
+        }
     }
 
 }

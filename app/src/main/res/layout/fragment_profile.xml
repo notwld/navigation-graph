@@ -5,10 +5,117 @@
     android:layout_height="match_parent"
     tools:context=".ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold|italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waleed"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birthday: "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold|italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19 Nov 2000"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Major: "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold|italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Engineer"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year: "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold|italic"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3rd"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Contact Me" />
+    </LinearLayout>
 
 </FrameLayout>
